@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LENNON</title>
+    <style>
+        @font-face {
+            font-family: 'MapoFlowerIsland';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoFlowerIslandA.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: '116angmuburi';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.0/116angmuburi.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'KOTRA_SONGEULSSI';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/KOTRA_SONGEULSSI.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body {
+            font-family: 'MapoFlowerIsland';
+            margin: 0;
+        }
+
+        .alldiv {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .head {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: 60px;
+            background-color: rgb(255, 252, 208);
+        }
+
+        .logo {
+            margin: 15px 15px 15px 30px;
+            font-size: 25px;
+        }
+
+        .headmenu {
+            display: flex;
+            flex-direction: row;
+            margin: 20px 20px 20px 20px;
+            right: 50px;
+            position: absolute;
+        }
+
+        .headmenu_text {
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+        
+        .btn-menu {
+            right: 10px;
+            position: absolute;
+            float: right;
+            width: 60px;
+            height: 45px;
+            background-color: transparent;
+            margin-top: 12px;
+
+        }
+
+        .btn-menu-line {
+            background: black;
+            margin: auto;
+            margin-top: 5px;
+            margin-bottom: 4px;
+            width: 30px;
+            height: 4px;
+            border-radius: 5px;
+            position: relative;
+        }
+
+        .mainpage {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .firstline {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .title {
+            font-family: 'KOTRA_SONGEULSSI';
+            margin: auto;
+            font-size: 80px;
+            margin-top: 50px;
+        }
+
+        .leftpicture {
+            width: 400px;
+            position: absolute;
+            left: 220px;
+            top: 20px;
+        }
+
+        .leftbigbox {
+            margin-top: 100px;
+            margin-left: 20px;
+            position: relative;
+        }
+
+        .yellobox {
+            width: 400px;
+            height: 400px;
+            border: solid yellow 4px;
+            position: absolute;
+            top: 0;
+            left: 200px;
+        }
+
+        .rightbigbox {
+            margin-top: 400px;
+            margin-right: 20px;
+            position: relative;
+        }
+
+        
+
+        .rightpicture {
+            width: 350px;
+            position: absolute;
+            top: 20px;
+            right: 200px;
+
+        }
+        .redbox {
+            width: 350px;
+            height: 350px;
+            border: solid red 4px;
+            position: absolute;
+            top: 0;
+            right: 215px;
+        }
+        img {
+            width: 100%;
+            box-shadow: 5px 5px 5px 5px #d7d7d7;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="alldiv">
+        <Div class="head">
+            <div class="logo">
+                <div class="logotext">레넌</div>
+            </div>
+            <div class="empty"></div>
+            <div class="headmenu">
+                <div class="headmenu_text">레넌을 소개합니다</div>
+                <div class="headmenu_text">BLC</div>
+                <div class="headmenu_text">지나온 길</div>
+            </div>
+
+            <a href="javascript:;" class="btn-menu">
+                <div class="line-wrapper">
+                    <div class="btn-menu-line"></div>
+                    <div class="btn-menu-line"></div>
+                    <div class="btn-menu-line"></div>
+                </div>
+            </a>
+        </Div>
+        <div class="mainpage">
+            <div class="firstline">
+                <div class="leftbigbox">
+                    <div class="leftpicture">
+                        <img src="./leftpicture.png">
+                    </div>
+                    <div class="yellobox"></div>
+
+                </div>
+                <div class="title">
+                    <div>ㄹ</div>
+                    <div>ㅔ</div>
+                    <div>ㄴ</div>
+                    <div>ㅓ</div>
+                    <div>ㄴ</div>
+                </div>
+                <div class="rightbigbox">
+                    <div class="rightpicture">
+                        <img src="./rightpicture.png">
+                    </div>
+                    <div class="redbox"></div>
+                    
+                </div>
+            </div>
+            <div class="textline">
+                <div>배부른 공무원?</div>
+                <div>난 배고픈 크리에이터가 될래!</div>
+                <div>안녕하세요! 레넌입니다!</div>
+            </div>
+            <div class="myline"></div>
+            <div class="BLCline"></div>
+            <div class="histroyline"></div>
+            <div class="contact"></div>
+
+        </div>
+    </div>
+</body>
+
+</html>
